@@ -1,0 +1,200 @@
+
+.body {
+    margin: 0;
+    line-height: normal;
+    width: 393px;
+    height: 565px;
+}
+
+.div * {
+    box-sizing: border-box;
+}
+
+.body-full-screen {
+    height: 100vh;
+    margin: 0 auto !important;
+    margin-top: 5vh !important;
+    background: linear-gradient(#e6e6e6, #ffffff) !important;
+}
+
+.bodyframe {
+    width: 393px;
+    height: 565px;
+    position: relative;
+}
+
+.bodyframe-top {
+    position: relative;
+    height: 300px;
+    width: auto;
+    background: linear-gradient(240deg, #73D3FB 31.33%, #1456FF 125.6%);
+}
+.bodyframe-bottom {
+    position: relative;
+    height: 50%;
+    width: auto;
+    background: #FFFFFF;
+}
+
+.bodyframe-full-screen {
+    border: 2px solid #1456FF;
+    box-shadow: -5px 5px 30px 10px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    overflow: hidden;
+}
+/* Text stuff */
+.text {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 24.146px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #FFF;
+    text-transform: uppercase;
+    transform: scaleX(1.1);
+}
+
+.logo {
+    padding-top: 12px;
+    text-align: center;
+    line-height: 32.77px; /* 135.714% */
+}
+
+.big-text {
+    font-size: 30px;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 1.8px;
+}
+
+.big-text-top {
+    left: calc(100% - 23px - 37px);
+    position: absolute;
+    top: 130px;
+}
+.big-text-bottom {
+    left: calc(100% - 23px - 37px);
+    position: absolute;
+    top: 96px;
+    color: #73D3FB
+}
+
+.tooltip {
+    font-family: Inter;
+    font-size: 15.333px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    font-style: normal;
+    text-wrap: nowrap;
+    border-radius: 2px;
+    position: absolute;
+    background-color: #FFC700;
+    color: black;
+    padding: 5px 10px;
+    visibility: hidden; /* Изначально скрыт */
+    z-index: 100;
+    pointer-events: none; /* Чтобы тултип не влиял на события мыши */
+    transition: visibility 0.2s, opacity 0.2s;
+    opacity: 0;
+}
+
+.input:hover + .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Buttons */
+.rect {
+    position: absolute;
+    height: 52px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+}
+.rect:hover {
+    scale: 1.02;
+}
+.rectangle-1 {
+    left: 196px;
+    top: 274px;
+    width: 106px;
+    display: inline-flex;
+}
+
+.rectangle-2 {
+    left: 310px;
+    top: 274px;
+    width: 52px;
+}
+
+.btn {
+    margin: 0px;
+    height: 52px;
+    width: 52px;
+    border: none; /* Убираем стандартную рамку */
+    background-color: transparent;
+    padding: 0px;
+    cursor: pointer;
+    color: #73D3FB;
+}
+.btn:hover {
+    color: #159FD9;
+}
+.larrow {
+    position: absolute;
+    bottom: 7px;
+    left: 27px;
+}
+.rarrow {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+.btn-a {
+
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 40.714px;
+    color: #73D3FB;
+    transform-origin: left;
+    
+}
+
+.input {
+    position: absolute;
+    bottom: 122px;
+    width: 249px;
+    left: 36px;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 40.714px;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid currentColor; /* Толщина и стиль линии */
+
+}
+.input[type='number']::-webkit-inner-spin-button,
+.input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.input[type='number'] {
+    -moz-appearance: textfield; /* Для Firefox */
+}
+
+.input-1 {
+
+    color: #FFF;
+    
+}
+.input-2 {
+    color: #73D3FB;
+    
+}

@@ -1,0 +1,217 @@
+.div,
+.div * {
+  box-sizing: border-box;
+}
+.div {
+  background: #ffffff;
+  height: 565px;
+  position: relative;
+  overflow: hidden;
+}
+.group-24 {
+  position: absolute;
+  inset: 0;
+}
+.group-22 {
+  width: 329px;
+  height: 107px;
+  position: static;
+}
+.group-12 {
+  width: 329px;
+  height: 107px;
+  position: static;
+}
+.do-you-like-heic-to-pdf {
+  color: #73d3fb;
+  text-align: center;
+  font-family: "MyriadPro-Semibold", sans-serif;
+  font-size: 40px;
+  line-height: 37px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 163.5px);
+  top: 97px;
+  width: 329px;
+}
+.rate-your-expirience {
+  color: #73d3fb;
+  text-align: center;
+  font-family: "MyriadPro-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 96.43px);
+  top: 180px;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 127.5px);
+  top: 212px;
+}
+.star-group {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-rounded {
+  border-radius: 40px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-star {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.star-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.group2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.star-12 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.group3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.star-13 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.group4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.star-14 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.icon-star2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.group-23 {
+    width: 330px;
+    height: 40px;
+    position: static;
+    cursor: pointer;
+  }
+.group-23:hover {
+    background-color: aliceblue;
+  }
+  .div-calc-btn-s-g-ue-7 {
+    background: #73d3fb;
+    border-radius: 8px;
+    width: 330px;
+    height: 40px;
+    position: absolute;
+    left: calc(50% - 164.5px);
+    top: 459px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  .div-calc-btn-s-g-ue-7:hover {
+    background: #58ABCD;
+  }
+.frame-3852 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 38px);
+  top: 0px;
+}
+.start-over {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
