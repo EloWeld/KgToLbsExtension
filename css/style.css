@@ -198,3 +198,18 @@
     color: #73D3FB;
     
 }
+
+.open-full {
+    cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 20px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        color: #ffffff;
+}
+.open-full:hover {
+    scale: 1.1;
+}

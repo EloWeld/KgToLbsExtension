@@ -13,6 +13,9 @@ let logo_label = document.getElementById('logo')
 let btn_fix_inc = document.getElementById('fix_inc')
 let btn_fix_dec = document.getElementById('fix_dec')
 let input_to = f_input;
+
+
+
 let was_rated = localStorage.getItem('was_rated') == "yes" ? true : false
 // Fixed + and - buttons
 const onChangeFixed = value => {
@@ -167,6 +170,11 @@ function initialize () {
     if (tab) {
       $('.body').toggleClass('body-full-screen')
       $('.bodyframe').addClass('bodyframe-full-screen')
+      openFull.style.display = 'none'
+    } else {
+      openFull.addEventListener('click', function (e) {
+        chrome.tabs.create({ url: chrome.runtime.getURL('popup.html') })
+    })
     }
   })
 }
